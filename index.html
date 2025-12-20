@@ -23,7 +23,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Webstudio</title>
   </head>
   <body>
@@ -130,13 +130,30 @@
           <h2 class="section-caption">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/mark_guerrero.jpg"
-                width="264"
-                height="260"
-                alt="Mark Guerrero"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/webp/mark_guerrero.webp    1x,
+                    ./images/webp/mark_guerrero@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/jpeg/mark_guerrero.jpg    1x,
+                    ./images/jpeg/mark_guerrero@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team-img"
+                  src="./images/jpeg/mark_guerrero.jpg"
+                  width="264"
+                  height="260"
+                  alt="Mark Guerrero"
+                />
+              </picture>
+
               <div class="team-info">
                 <h3 class="team-title">Mark Guerrero</h3>
                 <p class="team-descr">Product Designer</p>
@@ -173,13 +190,29 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/tom_ford.jpg"
-                width="264"
-                height="260"
-                alt="Tom Ford"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/webp/tom_ford.webp    1x,
+                    ./images/webp/tom_ford@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/jpeg/tom_ford.jpg    1x,
+                    ./images/jpeg/tom_ford@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team-img"
+                  src="./images/jpeg/tom_ford.jpg"
+                  width="264"
+                  height="260"
+                  alt="Tom Ford"
+                />
+              </picture>
               <div class="team-info">
                 <h3 class="team-title">Tom Ford</h3>
                 <p class="team-descr">Frontend Developer</p>
@@ -216,13 +249,30 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/camila_garcia.jpg"
-                width="264"
-                height="260"
-                alt="Camila Garcia"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/webp/camila_garcia.webp    1x,
+                    ./images/webp/camila_garcia@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/jpeg/camila_garcia.jpg    1x,
+                    ./images/jpeg/camila_garcia@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team-img"
+                  src="./images/jpeg/camila_garcia.jpg"
+                  width="264"
+                  height="260"
+                  alt="Camila Garcia"
+                />
+              </picture>
+
               <div class="team-info">
                 <h3 class="team-title">Camila Garcia</h3>
                 <p class="team-descr">Marketing</p>
@@ -259,13 +309,30 @@
               </div>
             </li>
             <li class="team-item">
-              <img
-                class="team-img"
-                src="./images/daniel_wilson.jpg"
-                width="264"
-                height="260"
-                alt="Daniel Wilson"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/webp/daniel_wilson.webp    1x,
+                    ./images/webp/daniel_wilson@2x.webp 2x
+                  "
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/jpeg/daniel_wilson.jpg    1x,
+                    ./images/jpeg/daniel_wilson@2x.jpg 2x
+                  "
+                  type="image/jpg"
+                />
+                <img
+                  class="team-img"
+                  src="./images/jpeg/daniel_wilson.jpg"
+                  width="264"
+                  height="260"
+                  alt="Daniel Wilson"
+                />
+              </picture>
+
               <div class="team-info">
                 <h3 class="team-title">Daniel Wilson</h3>
                 <p class="team-descr">UI Designer</p>
@@ -310,13 +377,29 @@
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="img-wrapper">
-                <img
-                  class="portfolio-img"
-                  src="./images/banking-app.jpg"
-                  width="360"
-                  height="300"
-                  alt="banking app image"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/webp/banking_app.webp    1x,
+                      ./images/webp/banking_app@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/jpeg/banking_app.jpg    1x,
+                      ./images/jpeg/banking_app@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/jpeg/banking_app.jpg"
+                    width="360"
+                    height="300"
+                    alt="banking app image"
+                  />
+                </picture>
                 <p class="layout">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -330,13 +413,29 @@
             </li>
             <li class="portfolio-item">
               <div class="img-wrapper">
-                <img
-                  class="portfolio-img"
-                  src="./images/cashless-payment.jpg"
-                  width="360"
-                  height="300"
-                  alt="cashless payment image"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/webp/cashless_payment.webp    1x,
+                      ./images/webp/cashless_payment@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/jpeg/cashless_payment.jpg    1x,
+                      ./images/jpeg/cashless_payment@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/jpeg/cashless_payment.jpg"
+                    width="360"
+                    height="300"
+                    alt="cashless payment image"
+                  />
+                </picture>
                 <p class="layout">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -350,13 +449,29 @@
             </li>
             <li class="portfolio-item">
               <div class="img-wrapper">
-                <img
-                  class="portfolio-img"
-                  src="./images/meditation-app.jpg"
-                  width="360"
-                  height="300"
-                  alt="meditation app image"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/webp/meditation_app.webp    1x,
+                      ./images/webp/meditation_app@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/jpeg/meditation_app.jpg    1x,
+                      ./images/jpeg/meditation_app@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/jpeg/meditation_app.jpg"
+                    width="360"
+                    height="300"
+                    alt="meditation app image"
+                  />
+                </picture>
                 <p class="layout">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -370,13 +485,29 @@
             </li>
             <li class="portfolio-item">
               <div class="img-wrapper">
-                <img
-                  class="portfolio-img"
-                  src="./images/taxi-service.jpg"
-                  width="360"
-                  height="300"
-                  alt="taxi service image"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/webp/taxi_service.webp    1x,
+                      ./images/webp/taxi_service@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/jpeg/taxi_service.jpg    1x,
+                      ./images/jpeg/taxi_service@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/jpeg/taxi_service.jpg"
+                    width="360"
+                    height="300"
+                    alt="taxi service image"
+                  />
+                </picture>
                 <p class="layout">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -390,13 +521,29 @@
             </li>
             <li class="portfolio-item">
               <div class="img-wrapper">
-                <img
-                  class="portfolio-img"
-                  src="./images/screen-illustrations.jpg"
-                  width="360"
-                  height="300"
-                  alt="screen illustrations image"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/webp/screen_illustration.webp    1x,
+                      ./images/webp/screen_illustration@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/jpeg/screen_illustration.jpg    1x,
+                      ./images/jpeg/screen_illustration@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/jpeg/screen_illustration.jpg"
+                    width="360"
+                    height="300"
+                    alt="screen illustrations image"
+                  />
+                </picture>
                 <p class="layout">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -410,13 +557,29 @@
             </li>
             <li class="portfolio-item">
               <div class="img-wrapper">
-                <img
-                  class="portfolio-img"
-                  src="./images/online-courses.jpg"
-                  width="360"
-                  height="300"
-                  alt="online courses image"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/webp/online_courses.webp    1x,
+                      ./images/webp/online_courses@2x.webp 2x
+                    "
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="
+                      ./images/jpeg/online_courses.jpg    1x,
+                      ./images/jpeg/online_courses@2x.jpg 2x
+                    "
+                    type="image/jpg"
+                  />
+                  <img
+                    class="portfolio-img"
+                    src="./images/jpeg/online_courses.jpg"
+                    width="360"
+                    height="300"
+                    alt="online courses image"
+                  />
+                </picture>
                 <p class="layout">
                   14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -435,7 +598,7 @@
     <footer class="footer">
       <div class="container footer-container">
         <div class="footer-wrapper">
-          <a class="logo logo-display logo-margin-bottom" href="/"
+          <a class="logo logo-display logo-footer" href="/"
             >Web<span class="light-logo">Studio</span></a
           >
           <p class="footer-descr">
@@ -444,7 +607,7 @@
           </p>
         </div>
         <div class="footer-social">
-          <p class="footer-text">Social media</p>
+          <p class="footer-caption social-caption">Social media</p>
           <ul class="social-list footer-list">
             <li class="social-item footer-hover">
               <a class="social-link footer-link" href="">
@@ -477,7 +640,7 @@
           </ul>
         </div>
         <div class="footer-subscribe">
-          <p class="subscribe-caption">Subscribe</p>
+          <p class="footer-caption subscribe-caption">Subscribe</p>
           <form class="subscribe-form">
             <label class="subscribe-form-label">
               <input
@@ -585,10 +748,12 @@
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="modal-form-link" href="#" target="_blank">
-                Privacy Policy
-              </a>
+              <span class="agreement-text">
+                I accept the terms and conditions of the
+                <a class="modal-form-link" href="#" target="_blank">
+                  Privacy Policy
+                </a>
+              </span>
             </label>
           </div>
           <button class="btn" type="submit" disabled>Send</button>
